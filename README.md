@@ -40,11 +40,9 @@ Login to sonar server as `admin/admin`.
 
 The new custom rules not active by default.
 
-We should search them and activate them one by one.
+We can activate them by:
 
-`Rules` -> `Search` -> keywords -> click on the results -> `Active`
-
-**Question**: can we active all the rules of a plugin just one time?
+`Rules` -> `Repository` -> my custom plugin name -> `Bulk Change` -> `Sonar way: Java`
 
 Run on a project
 ----------------
@@ -67,6 +65,6 @@ Open <http://localhost:9000> you will see the results and check if the code brea
 Articles
 --------
 
-1. Writing custom Java plugins: <http://docs.sonarqube.org/display/PLUG/Writing+Custom+Java+Rules+101#WritingCustomJavaRules101-Testingacustomplugin>
+1. Writing custom Java plugins: <http://docs.sonarqube.org/display/PLUG/Writing+Custom+Java+Rules+101>
 
 
