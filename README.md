@@ -49,13 +49,18 @@ We should search them and activate them one by one.
 Run on a project
 ----------------
 
-Go to a maven project, and run:
+Go to a maven project, e.g.:
+
+1. <https://github.com/java-demos/mars-rover-with-if-else-demo>
+2. <https://github.com/java-demos/mars-rover-with-enum-demo>
+
+and run:
 
 ```
 mvn sonar:sonar
 ```
 
-It will scan the project and send the results to server.
+It will scan the project and send the results to the sonar server.
 
 Open <http://localhost:9000> you will see the results and check if the code breaks your rule.
 
