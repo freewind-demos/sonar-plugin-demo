@@ -59,8 +59,9 @@ It will scan the project and send the results to server.
 
 Open <http://localhost:9000> you will see the results and check if the code breaks your rule.
 
+Articles
+--------
 
-
-
+1. Writing custom Java plugins: <http://docs.sonarqube.org/display/PLUG/Writing+Custom+Java+Rules+101#WritingCustomJavaRules101-Testingacustomplugin>
 
 
